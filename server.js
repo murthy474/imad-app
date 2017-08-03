@@ -10,13 +10,13 @@ app.get('/', function (req, res) {
 });
 
 app.get('/articalone',function(req,res){
-   res.get("this is my first web app"); 
+   res.get('this is my first web app'); 
 });
 app.get('/articaltwo',function(req,res){
-   res.get("this is my second web app"); 
+   res.get('this is my second web app'); 
 });
 app.get('/articalthree',function(req,res){
-   res.get("this is my three web app"); 
+   res.get('this is my three web app'); 
 });
 
 app.get('/ui/style.css', function (req, res) {
